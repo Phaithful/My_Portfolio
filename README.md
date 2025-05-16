@@ -1,9 +1,9 @@
 # 🌐 Faithful's Developer Portfolio
-Welcome to my personal portfolio website, a pixel-perfect showcase of my projects, skills, and design philosophy. This site is fully responsive, cleanly coded, and built with performance and aesthetics in mind.
+Welcome to my personal portfolio website, a pixel-perfect showcase of my projects, skills, and design philosophy. This site is fully responsive (noy yet), cleanly coded, and built with performance and aesthetics in mind.
 
 
 ## 🚀 Live Preview
-👉 [Visit the Portfolio][This portfolio is not yet live but as soon as it goes live, i'll drop an update]
+👉 [This portfolio is not yet live but as soon as it goes live, i'll drop an update][]
 
 
 ## 📸 Image Preview of Website
@@ -16,7 +16,7 @@ Welcome to my personal portfolio website, a pixel-perfect showcase of my project
 
 
 ## 🛠 Built With
-- HTML5 & CSS3 (with Flexbox & Grid)
+- HTML5 & CSS(Vanilla) (with Flexbox & Grid)
 - JavaScript (Vanilla)
 - Bootstrap 5
 - jQuery
@@ -28,20 +28,21 @@ Welcome to my personal portfolio website, a pixel-perfect showcase of my project
 ## 🔄 Project Workflow
 
 ### 1. **Planning & Wireframing**
-- Sketched out the structure and layout using Figma and pen-paper mockups.
-- Defined key sections: Hero, About, Projects, Skills, Contact.
+- Sketched out the structure and layout using canva.
+- Defined key sections: Home, Services, Skillset, About, Contact.
 
 ### 2. **Folder & File Setup**
 - Created a clean folder structure:
 
 ## 📁 Folder Structure
 root/
-├── assets/
-│ ├── css/
-│ ├── js/
-│ └── images/
-├── index.html
-└── README.md
+|── index.php
+├── css
+├── js
+|── README.md
+└── images/
+
+
 
 
 ### 3. **HTML Markup**
@@ -60,11 +61,11 @@ root/
 
 ### 6. **Responsiveness & Testing**
 - Manually tested on different screen sizes and browsers.
-- Used DevTools to tweak mobile responsiveness.
+- Used chrome DevTools to tweak mobile responsiveness.
 - Lighthouse and performance tests for speed and accessibility.
 
 ### 7. **Final Touches**
-- Added SEO tags, favicon, and Open Graph metadata.
+- Added favicon.
 - Compressed images for faster load time.
 - Wrote and reviewed content for clarity and conciseness.
 
@@ -74,8 +75,8 @@ root/
 ## 🎯 Features
 - Fully responsive layout
 - Smooth scrolling and animations
-- Project showcase gallery
-- Contact form (with form validation or backend integration if added)
+- Skillset Percentage
+- Contact form
 - Mobile-first design
 - Optimized for performance and accessibility
 
@@ -87,17 +88,18 @@ To view this project locally:
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Phaithful/My_Portfolio.git
 
 2. Open the project folder
-    cd your-portfolio
+    cd PortfolioWebsite
 
-3. Open index.php in your browser (no server needed if it's static)
+3. Open index.php in your browser (local host/server needed (XAMPP))
 
 
 ## 💡 Future Improvements
 - Add dark mode toggle
 - Integrate a CMS or blog section
+- Java Script Animations
 
 
 ## 🧠 What I Learned
