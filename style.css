@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat", sans-serif !important;
+    overflow-x: hidden;
 }
 
 
@@ -90,6 +91,7 @@ span{
     position: relative;
     left: 15%;
     width: 50%;
+    font-weight: 700 !important;
 
 }
 
@@ -115,16 +117,20 @@ span{
     width: 45%;
     letter-spacing: 3px;
     text-align: right;
+    font-weight: 700;
 }
 
 
 .mobile{
     text-align: center;
-    color: #938d8d !important;
+    color: #dddddd !important;
     padding-top: 5px;
     width: 70%;
     position: relative;
     left: 14%;
+    font-weight: 600; 
+    font-size: 13px; 
+    margin-top: 20px;
 }
 
 
@@ -221,6 +227,49 @@ span{
     
 }
 
+
+
+.service-left-div-content{
+    margin-top: 40px;
+}
+
+
+.service-left-div-content h1{
+    color: #dddddd !important;
+    font-size: 40px !important;
+    font-weight: 800 !important;
+    text-align: left;
+    margin-top: 7px;
+    padding-bottom: 5px;
+}
+
+.service-left-div-content p{
+    color: #dddddd !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+
+.the-table td,
+.the-table th {
+    background-color: rgba(165, 155, 143, 0.5) !important;
+    color: #dddddd !important;
+    font-size: 14px !important;
+    margin-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;    
+}
+
+
+
 .service-right-div{
     width: 70%;
     height: 50%;
@@ -258,6 +307,17 @@ span{
 
 }
 
+
+.icon-text-wrapper {
+  display: block;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.icon{
+    position: relative;
+    right: 80px;
+}
 
 
 .flex-container {
@@ -353,44 +413,6 @@ span{
 }
 
 
-.service-left-div-content{
-    margin-top: 40px;
-}
-
-
-.service-left-div-content h1{
-    color: #dddddd !important;
-    font-size: 40px !important;
-    font-weight: 800 !important;
-    text-align: left;
-    margin-top: 7px;
-    padding-bottom: 5px;
-}
-
-.service-left-div-content p{
-    color: #dddddd !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    text-align: left;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-}
-
-
-
-
-.the-table td,
-.the-table th {
-    background-color: rgba(165, 155, 143, 0.5) !important;
-    color: #dddddd !important;
-    font-size: 14px !important;
-    margin-bottom: 50px !important;
-    padding-left: 25px !important;
-    padding-right: 25px;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;    
-}
 
 
 .skillset{
@@ -505,19 +527,20 @@ span{
 }
 
 
-
+/*
 .skill-header::after {
     content: "";
     display: block;
     margin-top: 50px auto 0 auto;
     width: 250px; /* adjust this to get the "half" width look */
+   /*
     height: 0.7vh;
     background-color: #181716;
     opacity: 0.5;
     position: absolute;
     left: 53vw;
 }
-
+*/
 
 .skillset-container p{
     color: #dddddd !important;
@@ -536,8 +559,9 @@ span{
 
 .about{
     padding-top: 150px;
-    background-color: #E4DFD7;
+    background-color: #212529;
     min-height: 100vh !important;
+    overflow-x: hidden;
 }
 
 
@@ -565,15 +589,16 @@ span{
 .about-content h1{
     font-size: 40px !important;
     text-shadow: 3px 0 #61564a;
-    font-weight: 800 !important;
+    font-weight: 900 !important;
     text-align: left;
     margin-top: 7px;
     padding-bottom: 10px;
+    color: #f0eff0 !important;
     
 }
 
 .about-content p{
-    color: #61564a !important;
+    color: #f0eff0 !important;
     font-size: 16px !important;
     font-weight: 600 !important;
     text-align: left;
@@ -588,7 +613,7 @@ span{
   left: 70px;
   width: 3px;
   height: 60vh;
-  background-color: #61564a;
+  background-color: #a59b8f;
 }
 
 
@@ -617,7 +642,7 @@ span{
 
 .card {
   padding: 40px;
-  border-radius: 10px;
+  border-radius: 20px !important;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
   width: 100%;
   max-width: 70%;
@@ -687,10 +712,24 @@ input, textarea {
     
 }
 
+
+.socials {
+    display: flex;
+    flex-direction: column;   
+    gap: 30px;               
+    align-items: center;   
+    justify-content: center; 
+    margin-top: 170px;
+}
+
+
 .fab{
-    position: relative;
-    right: 50px;
     margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+.fab:hover {
+    transform: scale(1.2);
 }
 
 
@@ -707,6 +746,292 @@ input, textarea {
     font-size: 1.5rem; /* Bigger size for tablets */
   }
 }
+
+
+
+@media(min-width: 320px) and (max-width: 768px){
+    .talk-btn{
+        position: absolute;
+        left: 43%;
+        top: 63vh;
+        margin-left: 30px !important;
+        width: 75% !important;
+    }
+
+    .cv-btn{
+        position: absolute;
+        left: 52%;
+        top: 75vh;
+        width: 75% !important;
+    }
+
+    .home-h1{
+        font-size: 11vw !important;
+        left: 5%;
+        text-shadow: 3px 0px #61564a;
+    }
+
+    .home-h1::after {
+        height: 0.5vh;
+        left: 44vw;
+    }
+
+    .home-description{
+        font-size: 2.5vw !important;
+        left: 45%;
+        width: 50%;
+        letter-spacing: 2.5px;
+    }
+
+    .home-p{
+        font-size: 3vw !important;
+        left: 8%;
+        width: 50%;
+        font-weight: 700 !important;
+    }
+
+    .service-left-div{
+        width: 96vw;
+        height: 50%;
+        align-items: center;
+        color: #dddddd;
+    }
+
+    .service-container{
+        display: inline-block !important;
+        position: relative;
+        width: 1050px !important;
+        left: 0 !important;
+    }
+
+    .service-left-div-content h1{
+        font-size: 25px !important;
+        margin-top: 0px;
+    }
+
+    .service-left-div-content{
+        margin-top: 0px !important;
+    }
+
+    .service-left-div-content p{
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px;
+    }
+
+    .the-table td,
+    .the-table th {
+        font-size: 12px !important;
+        padding-left: 5px !important;
+        padding-right: 5px;  
+    }
+
+    .service-right-div {
+        width: 100%;
+        padding: 20px;
+        padding-left: 0px;
+        
+    }
+
+    .flex-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .icon-text-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-heading,
+    .service-description {
+        padding-left: 0;
+    }
+
+    .top-left{
+        width: 80vw;
+        height: 35vh;
+        rotate: 0deg;
+    }
+
+    .top-left:hover{
+        rotate: -5deg;
+    }
+
+
+    .top-right{
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .top-left{
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .bottom-left{
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .bottom-right{
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .service-right-div h1{
+        font-size: 20px !important;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    .service-right-div p{
+        font-weight: 400 !important;
+        padding-left: 20px;
+        font-size: 15px !important;
+
+    }
+
+
+    .vertical-line-wrapper{
+        display: none;
+    }
+
+
+    .skill-class{
+        display: block !important;
+    }
+
+
+    .skill-left-div{
+        display: none !important;
+    }
+
+    .skill-table {
+        display: block !important;
+        position: relative;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        
+    }
+
+    .the-s-table td,
+    .the-s-table th{
+        background-color: rgba(165, 155, 143, 0.5) !important;
+        color: #dddddd !important;
+        font-size: 17px !important;
+        padding-left: 17% !important;
+        padding-bottom: 15px !important;    
+    }
+
+
+
+    .vertical-line2{
+        display: none;
+    }
+
+    .about-div{
+        display: block !important;
+    }
+
+    .camera-image{
+        display: none !important;
+    }
+
+    .about-content{
+        width: 100% !important;
+        margin-left: 0px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-top: -50px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .about-content p{
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 0px;
+        text-align: left;
+    }   
+
+    .card{
+        padding: 30px 10px;
+        max-width: 100vw !important;
+
+    }
+
+
+    .contact{
+        display: block !important;
+    }
+
+    .contact h1{
+        font-size: 50px !important;
+        padding-bottom: 5px;
+    }
+
+    .names{
+        display: block !important;
+        gap: 20px !important;
+    }
+
+    #first{
+        margin-bottom: 16px !important;
+    }
+
+    .social-div{
+        margin-left: 0px !important;
+        justify-content: center !important;
+    }
+
+    .socials {
+        flex-direction: row;  
+        gap: 30px;  
+        margin-top: 0px;
+    }
+
+    .fab{
+        margin-bottom: 30px !important;
+
+    }
+
+    .skill-right-div{
+        width: 100vw !important;
+        margin-left: 0px !important;
+        margin-right: 20px !important;
+        padding-right: 30px !important;
+    }
+
+    .skillset-container{
+        display: block !important;
+    }
+
+    .front-end-skills{
+        width: 90vw !important;
+        margin-right: 0px !important; 
+        margin-bottom: 100px !important;
+    }
+
+    .back-end-skills{
+        width: 90vw !important;
+        margin-right: 0px !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

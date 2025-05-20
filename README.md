@@ -1,5 +1,5 @@
 # 🌐 Faithful's Developer Portfolio
-Welcome to my personal portfolio website, a pixel-perfect showcase of my projects, skills, and design philosophy. This site is fully responsive (noy yet), cleanly coded, and built with performance and aesthetics in mind.
+Welcome to my personal portfolio website, a pixel-perfect showcase of my projects, skills, and design philosophy. This site is fully responsive, cleanly coded, and built with performance and aesthetics in mind.
 
 
 ## 🚀 Live Preview
@@ -8,10 +8,24 @@ Welcome to my personal portfolio website, a pixel-perfect showcase of my project
 
 ## 📸 Image Preview of Website
 ![Portfolio Screenshot](/images//interface//Home-Page.png) The Home Page
+![Portfolio Screenshot](/images//interface/About-Me-Page.png) The About Me Page
 ![Portfolio Screenshot](/images//interface/Services-Page.png) The Services Page
 ![Portfolio Screenshot](/images//interface/Skillset-Page.png) The Skillset Page
-![Portfolio Screenshot](/images//interface/About-Me-Page.png) The About Me Page
 ![Portfolio Screenshot](/images//interface/Contact-Page.png) The Contact Me Page
+![Portfolio Screenshot](/images//interface/Responsive-Home-Page.png) Responsive Home Page
+![Portfolio Screenshot](/images//interface/Responsive-Navbar-view.png) Responsive Navbar View
+![Portfolio Screenshot](/images//interface/Responsive-About-Page.png) Responsive About Page
+![Portfolio Screenshot](/images//interface/Responsive-Service-Page1.png) Responsive Service Page1
+![Portfolio Screenshot](/images//interface/Responsive-Service-Page2.png) Responsive Service Page2
+![Portfolio Screenshot](/images//interface/Responsive-Service-Page3.png) Responsive Service Page3
+![Portfolio Screenshot](/images//interface/Responsive-Skillset-Page1.png) Responsive Skillset Page1
+![Portfolio Screenshot](/images//interface/Responsive-Skillset-Page2.png) Responsive Skillset Page2
+![Portfolio Screenshot](/images//interface/Responsive-Skillset-Page3.png) Responsive Skillset Page3
+![Portfolio Screenshot](/images//interface/Responsive-Contact-Page1.png) Responsive Contact Page1
+![Portfolio Screenshot](/images//interface/Responsive-Contact-Page2.png) Responsive Contact Page2
+
+
+
 
 
 
